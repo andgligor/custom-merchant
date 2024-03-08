@@ -1,0 +1,11 @@
+query FetchCarts {
+    carts {
+        results {
+            id
+            version
+            key
+            customerEmail
+            country
+        }
+    }
+}
