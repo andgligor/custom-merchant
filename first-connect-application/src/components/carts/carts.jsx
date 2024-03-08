@@ -26,10 +26,10 @@ import { useCartsFetcher } from '../../hooks/use-carts-connector';
 import { getErrorMessage } from '../../helpers';
 
 const columns = [
-  { key: 'customerEmail', label: 'Customer email',isSortable: true },
+  { key: 'customerEmail', label: 'Customer email' },
   { key: 'key', label: 'Key'},
     { key: 'country', label: 'Country'},
-    { key: 'createdAt', label: 'Creation date'}
+    { key: 'createdAt', label: 'Creation date',isSortable: true}
 
 ];
 
