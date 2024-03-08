@@ -1,4 +1,3 @@
 export {
-  useCartsFetcher,
-
+    useCartsFetcher,
 } from './use-carts-connector';
