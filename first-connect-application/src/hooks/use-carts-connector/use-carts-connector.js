@@ -16,7 +16,7 @@ export const useCartsFetcher = ({ page, perPage, tableSorting }) => {
     });
 
     return {
-        channelsPaginatedResult: data?.channels,
+        cartsPaginatedResult: data?.carts,
         error,
         loading,
     };

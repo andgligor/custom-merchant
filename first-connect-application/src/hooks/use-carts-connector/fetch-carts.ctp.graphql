@@ -9,6 +9,7 @@ query FetchCarts($limit: Int!, $offset: Int!, $sort: [String!]) {
             key
             customerEmail
             country
+            createdAt
         }
     }
 }
