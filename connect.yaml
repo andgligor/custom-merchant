@@ -28,13 +28,13 @@ deployAs:
     applicationType: job
     endpoint: /job
     properties:
-      schedule: "*/5 * * * *"
+      schedule: '*/5 * * * *'
     configuration:
       standardConfiguration:
         - key: CTP_REGION
           description: commercetools Composable Commerce API region
           required: true
-          default: "europe-west1.gcp"
+          default: 'europe-west1.gcp'
       securedConfiguration:
         - key: CTP_PROJECT_KEY
           description: commercetools Composable Commerce project key
@@ -59,7 +59,7 @@ deployAs:
         - key: CTP_REGION
           description: commercetools Composable Commerce API region
           required: true
-          default: "europe-west1.gcp"
+          default: 'europe-west1.gcp'
       securedConfiguration:
         - key: CTP_PROJECT_KEY
           description: commercetools Composable Commerce project key
@@ -83,7 +83,7 @@ deployAs:
           required: true
         - key: CLOUD_IDENTIFIER
           description: The cloud identifier
-          default: "gcp-eu"
+          default: 'gcp-eu'
         - key: ENTRY_POINT_URI_PATH
           description: The Application entry point URI path
           required: true
